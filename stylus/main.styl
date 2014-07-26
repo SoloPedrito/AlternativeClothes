@@ -1,0 +1,103 @@
+@import 'nib'
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:400,700');
+
+azul = #5d0d7c
+bold = 700
+negro = #333
+normal = 400
+rosado = #db0062
+tamano = 16px
+blanco = #FFF
+humo = #fafafa
+
+*
+	margin 0
+	padding 0
+
+b
+h1
+h2
+h3
+strong
+	font-weight bold
+
+input
+	border none
+	font-family 'Open Sans'
+	font-size 14px
+	font-weight normal
+	outline none
+
+.wrapper
+	margin 0 auto
+	max-width 960px
+
+.two
+	display inline-block
+	margin 1%
+	vertical-align top
+	width 45%
+	padding 1%
+
+.texto
+	padding 2em 0
+	text-align justify
+
+body
+html
+	font-family 'Open Sans'
+	font-size tamano
+	font-weight normal
+	text-align center
+	background humo
+
+h1
+	font-size 2.6em
+	padding 0 2em
+
+h2
+	font-size 2em
+	margin-bottom 0.5em
+
+h3
+	font-size 1.5em
+
+h4
+	font-size 1.2em
+
+.header
+	background-image url('../img/bg.png')
+	background-size cover
+	position relative
+	.barra
+		background url('../img/bg-barra.png') repeat-x
+		height 220px
+		width 100%
+	.logo
+		text-align left
+		figure
+			display inline-block
+			position absolute
+			text-align center
+			top 0
+			width 100%
+
+.nav
+	background rosado
+	text-transform uppercase
+	ul
+		list-style none
+		text-align right
+		li
+			display inline-block
+			margin 1em 0
+			vertical-align middle
+			a
+				border-right 1px solid blanco
+				color blanco
+				display block
+				padding 0 1em
+				text-decoration none
+			&:last-child
+				a
+					border none

@@ -1,82 +1,108 @@
-<!doctype html>
-<html>
-  <head>
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="chrome=1">
-    <title>Alternativeclothes by SoloPedrito</title>
-    <link rel="stylesheet" href="stylesheets/styles.css">
-    <link rel="stylesheet" href="stylesheets/pygment_trac.css">
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
-    <script src="javascripts/main.js"></script>
-    <!--[if lt IE 9]>
-      <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
-    <![endif]-->
-    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+<!DOCTYPE html>
+<html lang="es">
+<head>
+	<meta charset="UTF-8">
+	<title>Alternative Clothes</title>
+	<link rel="stylesheet" href="css/main.css">
+</head>
+<body>
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
 
-  </head>
-  <body>
+  ga('create', 'UA-53207436-1', 'auto');
+  ga('send', 'pageview');
 
-      <header>
-        <h1>Alternativeclothes</h1>
-        <p></p>
-      </header>
-
-      <div id="banner">
-        <span id="logo"></span>
-
-        <a href="https://github.com/SoloPedrito/AlternativeClothes" class="button fork"><strong>View On GitHub</strong></a>
-        <div class="downloads">
-          <span>Downloads:</span>
-          <ul>
-            <li><a href="https://github.com/SoloPedrito/AlternativeClothes/zipball/master" class="button">ZIP</a></li>
-            <li><a href="https://github.com/SoloPedrito/AlternativeClothes/tarball/master" class="button">TAR</a></li>
-          </ul>
-        </div>
-      </div><!-- end banner -->
-
-    <div class="wrapper">
-      <nav>
-        <ul></ul>
-      </nav>
-      <section>
-        <h3>
-<a name="welcome-to-github-pages" class="anchor" href="#welcome-to-github-pages"><span class="octicon octicon-link"></span></a>Welcome to GitHub Pages.</h3>
-
-<p>This automatic page generator is the easiest way to create beautiful pages for all of your projects. Author your page content here using GitHub Flavored Markdown, select a template crafted by a designer, and publish. After your page is generated, you can check out the new branch:</p>
-
-<pre><code>$ cd your_repo_root/repo_name
-$ git fetch origin
-$ git checkout gh-pages
-</code></pre>
-
-<p>If you're using the GitHub for Mac, simply sync your repository and you'll see the new branch.</p>
-
-<h3>
-<a name="designer-templates" class="anchor" href="#designer-templates"><span class="octicon octicon-link"></span></a>Designer Templates</h3>
-
-<p>We've crafted some handsome templates for you to use. Go ahead and continue to layouts to browse through them. You can easily go back to edit your page before publishing. After publishing your page, you can revisit the page generator and switch to another theme. Your Page content will be preserved if it remained markdown format.</p>
-
-<h3>
-<a name="rather-drive-stick" class="anchor" href="#rather-drive-stick"><span class="octicon octicon-link"></span></a>Rather Drive Stick?</h3>
-
-<p>If you prefer to not use the automatic generator, push a branch named <code>gh-pages</code> to your repository to create a page manually. In addition to supporting regular HTML content, GitHub Pages support Jekyll, a simple, blog aware static site generator written by our own Tom Preston-Werner. Jekyll makes it easy to create site-wide headers and footers without having to copy them across every page. It also offers intelligent blog support and other advanced templating features.</p>
-
-<h3>
-<a name="authors-and-contributors" class="anchor" href="#authors-and-contributors"><span class="octicon octicon-link"></span></a>Authors and Contributors</h3>
-
-<p>You can <a href="https://github.com/blog/821" class="user-mention">@mention</a> a GitHub username to generate a link to their profile. The resulting <code>&lt;a&gt;</code> element will link to the contributor's GitHub Profile. For example: In 2007, Chris Wanstrath (<a href="https://github.com/defunkt" class="user-mention">@defunkt</a>), PJ Hyett (<a href="https://github.com/pjhyett" class="user-mention">@pjhyett</a>), and Tom Preston-Werner (<a href="https://github.com/mojombo" class="user-mention">@mojombo</a>) founded GitHub.</p>
-
-<h3>
-<a name="support-or-contact" class="anchor" href="#support-or-contact"><span class="octicon octicon-link"></span></a>Support or Contact</h3>
-
-<p>Having trouble with Pages? Check out the documentation at <a href="http://help.github.com/pages">http://help.github.com/pages</a> or contact <a href="mailto:support@github.com">support@github.com</a> and we’ll help you sort it out.</p>
-      </section>
-      <footer>
-        <p>Project maintained by <a href="https://github.com/SoloPedrito">SoloPedrito</a></p>
-        <p><small>Hosted on GitHub Pages &mdash; Theme by <a href="https://twitter.com/michigangraham">mattgraham</a></small></p>
-      </footer>
-    </div>
-    <!--[if !IE]><script>fixScale(document);</script><![endif]-->
-    
-  </body>
+</script>
+	<header class="header">
+		<div class="barra"></div>
+		<div class="logo">
+			<figure>
+				<img src="img/alternative-clothes.png" alt="Alternative Clothes">
+			</figure>
+		</div>
+		<div class="wrapper">
+			<h1>Compra Online Ropa Alternativa y Arma tu Estilo</h1>
+			<div class="two">
+				<div class="formulario">
+					<form action="">
+						<input type="text" id="nombres" name="nombres" placeholder="Nombres">
+						<input type="text" id="apellidopaterno" name="apellidopaterno" placeholder="Apellido Paterno">
+						<input type="text" id="apellidomaterno" name="apellidomaterno" placeholder="Apellido Materno">
+						<input type="tel" id="dni" name="dni" placeholder="Nº de Documento">
+						<input type="email" id="email" name="email" placeholder="Correo Electrónico">
+						<input type="date" id="nacimiento" name="nacimiento" placeholder="DD / MM / AAAA">
+						<div class="terminos">
+							<input type="checkbox" name="acepto" value="acepto"> Acepto los términos y condiciones.<br>
+						</div>
+						<input type="submit" id="enviar" value="Arma tu estilo ahora">
+					</form>
+				</div>
+			</div>
+			<div class="two">
+				<div class="facebook">
+					<h3>También puedes ingresar con facebook:</h3>
+					<input type="checkbox" name="recordarme" value="recordarme"> Recordarme<br>
+					<figure class="facebook">
+						<a href="#">
+							<img src="img/conectar-con-facebook.png" alt="Conectar con Facebook">
+						</a>
+					</figure>
+				</div>
+			</div>
+		</div>
+	</header>
+	<nav class="nav">
+		<div class="wrapper">
+			<ul>
+				<li>
+					<a href="#quienes-somos">¿Quienes Somos?</a>
+				</li>
+				<li>
+					<a href="#quieres-comprar">¿Quieres Comprar?</a>
+				</li>
+				<li>
+					<a href="#testimonio">Testimonio</a>
+				</li>
+			</ul>
+		</div>
+	</nav>
+	<section class="main">
+		<div id="quienes-somos">
+			<div class="wrapper">
+				<div class="two">
+					<figure>
+						<img src="img/alternative-clothes-es-una-plataforma-online.png" alt="Alternative Clothes es una plataforma online">
+					</figure>
+				</div>
+				<div class="two texto">
+					<h3>Alternative Clothes</h3>
+					<h4>es una plataforma online</h4>
+					<p>que te da la oportunidad de comprar ropa alternativa desde el lugar que prefieras, de una manera práctica y sobre todo segura, dándote la opción de descubrir nuevas marcas con nuevos diseños y estilos.</p>
+				</div>
+			</div>
+		</div>
+		<div id="quieres-comprar">
+			<div class="wrapper">
+				<div class="two texto">
+					<h2>¿Quieres comprar?</h2>
+					<p>Elige la ropa que arma mejor tu estilo y paga por ella a través de tu carrito de compras. El vendedor se encargará de enviarte con mucho cariño el producto que has elegido. <strong>¡Pagos online 100% seguros!</strong></p>
+					<ol>
+						<li>Paga online por la ropa que selecciones.</li>
+						<li>El vendedor es notificado sobre la compra y envía tu pedido.</li>
+						<li>Alternative Clothes retiene tu pago hasta que confirmes haber recibido tu pedido.</li>
+						<li>Recibes tu pedido y procesamos el pago.</li>
+					</ol>
+				</div>
+				<div class="two">
+					<figure>
+						<img src="img/quieres-comprar.png" alt="¿Quieres comprar?">
+					</figure>
+				</div>
+			</div>
+		</div>
+	</section>
+</body>
 </html>
