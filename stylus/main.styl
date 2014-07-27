@@ -39,6 +39,12 @@ input
 	width 45%
 	padding 1%
 
+.left
+	float left
+
+.right
+	float right
+
 .texto
 	padding 2em 0
 	text-align justify
@@ -52,7 +58,8 @@ html
 	background humo
 
 h1
-	font-size 2.6em
+	font-size 2.5em
+	line-height 1.1em
 	padding 0 2em
 
 h2
@@ -69,6 +76,7 @@ h4
 	background-image url('../img/bg.jpg')
 	background-size cover
 	position relative
+	padding-bottom 1em
 	.barra
 		background url('../img/bg-barra.png') repeat-x
 		height 220px
@@ -83,6 +91,20 @@ h4
 			width 100%
 
 .formulario
+.facebook
+	padding 1em 0
+
+.facebook
+	padding 2em 0 1em
+	h3
+		font-size 1.2em
+		font-weight normal
+		margin 0.5em 0
+	.recordarme
+		padding 0.5em 0 1em 0
+		display inline-block
+
+.formulario
 	input[type="text"]
 	input[type="email"]
 	input[type="date"]
@@ -92,8 +114,17 @@ h4
 		width 43%
 	input[type="submit"]
 		background azul
-		width 100%
 		color blanco
+		cursor pointer
+		font-size tamano
+		font-weight bold
+		padding 0.8em
+		text-transform uppercase
+		width 100%
+	.recibir
+		font-size 12px
+		padding 0.5em
+		text-align left
 
 .nav
 	background rosado
@@ -153,7 +184,7 @@ h4
 			vertical-align middle
 			margin-right 1em
 
-.testimonio
+#testimonio
 	background url('../img/bg-testimonio.png')
 	color blanco
 	font-size 1.2em
@@ -162,7 +193,46 @@ h4
 		width 79%
 		display inline-block
 		vertical-align middle
+		text-align left
+		blockquote
+			padding 0 4.5em
+			position relative
+			&:after
+			&:before
+				font-family 'Times New Roman'
+				font-size 8.2em
+				position absolute
+			&:before
+				content '“'
+				left 0
+				top -0.3em
+			&:after
+				content '”'
+				right 0
+				top 0
+
+		p
+			font-size tamano
+			margin 1em 0 1em 6em
 	.avatar
 		width 20%
 		display inline-block
 		vertical-align middle
+		img
+			background blanco
+			border 8px solid blanco
+			border-radius 50%
+
+.footer
+	font-size 12px
+	padding 2em 0
+	font-weight bold
+	.wrapper
+		border-top 1px solid #d6d6d6
+		padding 1em 0
+		.redes
+			list-style none
+			li
+				display inline-block
+				vertical-align middle
+				margin 0.5em

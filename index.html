@@ -32,8 +32,9 @@
 						<input type="text" id="apellidos" name="apellidos" placeholder="Apellidos">
 						<input type="email" id="email" name="email" placeholder="Correo Electrónico">
 						<input type="date" id="nacimiento" name="nacimiento" placeholder="DD / MM / AAAA">
-						<div class="terminos">
-							<input type="checkbox" name="acepto" value="acepto"> Deseo recibir más información.<br>
+						<div class="recibir">
+							<input type="checkbox" id="acepto" name="acepto" value="acepto">
+							<label for="acepto">Deseo recibir más información.</label>
 						</div>
 						<input type="submit" id="enviar" value="Arma tu estilo ahora">
 					</form>
@@ -42,8 +43,11 @@
 			<div class="two">
 				<div class="facebook">
 					<h3>También puedes ingresar con facebook:</h3>
-					<input type="checkbox" name="recordarme" value="recordarme"> Recordarme<br>
-					<figure class="facebook">
+					<div class="recordarme">
+						<input type="checkbox" id="recordarme" name="recordarme" value="recordarme">
+						<label for="recordarme">Recordarme</label>
+					</div>
+					<figure class="loginfacebook">
 						<a href="#">
 							<img src="img/conectar-con-facebook.png" alt="Conectar con Facebook">
 						</a>
@@ -110,10 +114,10 @@
 			</div>
 		</div>
 	</section>
-	<aside class="testimonio">
+	<aside id="testimonio">
 		<div class="wrapper">
 			<div class="mensaje">
-				<blockquote>Comprar a través de Alternative Clothes es la mejor opción que he podido tomar, buen servicio, seguro, rápido y fácil de usar.</blockquote>
+				<blockquote>Comprar a través de <strong>Alternative Clothes</strong> es la mejor opción que he podido tomar, buen servicio, seguro, rápido y fácil de usar.</blockquote>
 				<p>- Claudia Altamirano -</p>
 			</div>
 			<figure class="avatar">
@@ -121,18 +125,18 @@
 			</figure>
 		</div>
 	</aside>
-	<footer>
+	<footer class="footer">
 		<div class="wrapper">
 			<div class="left">Alternative Clothes</div>
 			<div class="right">
-				<ol class="redes">
+				<ul class="redes">
 					<li>
 						<img src="img/ico-facebook.png" alt="Facebook">
 					</li>
 					<li>
 						<img src="img/ico-twitter.png" alt="Twitter">
 					</li>
-				</ol>
+				</ul>
 			</div>
 		</div>
 	</footer>
